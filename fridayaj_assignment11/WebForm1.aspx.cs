@@ -14,6 +14,8 @@ namespace fridayaj_assignment11
             // Compute the total days in the reservation,
             // Assume $200 per night,
             // apply tax, 15%, and diplay in lblTotalCost
+            
+            /*
             int days;
             var checkInDate = calCheckInDate.SelectedDate;
             var checkOutDate = calCheckOutDate.SelectedDate;
@@ -22,6 +24,7 @@ namespace fridayaj_assignment11
             lblTotalDays.Text = days.ToString() + " Days";
 
             lblTotalCost.Text = "$" + ((days * 200) * 1.15).ToString();
+            */
         }
     }
 }
